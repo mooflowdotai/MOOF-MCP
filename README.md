@@ -22,6 +22,8 @@ This MCP server connects to [MOOF](https://app.moof.fun), a platform for buildin
 
 ## ⚙️ Setup Options
 
+### Option 1: Run via `npx` (no install)
+
 ```bash
 MOOF_API_KEY=your-moof-key MCP_API_KEY=your-mcp-key npx -y moof-mcp --stdio
 ```
