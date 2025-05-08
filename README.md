@@ -1,5 +1,5 @@
 # Moof MCP Server 🧐🚀
-
+[![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates/moof-mcp)
 > 🔌 **Compatible with [Claude Desktop](https://claude.ai/desktop), [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [Cline](https://github.com/cline/cline), and other MCP clients.**
 >
 > This MCP server enables AI assistants to interact with the [MOOF](https://app.moof.fun) platform—creating, publishing, and querying AI flows.
