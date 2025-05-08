@@ -4,17 +4,23 @@ startCommand:
   configSchema:
     type: object
     required:
-      - apiKey
+      - moofApiKey
+      - mcpApiKey
     properties:
-      apiKey:
+      moofApiKey:
         type: string
         description: Your MOOF API key (required).
+        minLength: 1
+      mcpApiKey:
+        type: string
+        description: Your MCP API key (required).
         minLength: 1
   commandFunction: |
     config => ({
       command: 'node',
       args: ['build/index.js'],
       env: {
-        API_KEY: config.apiKey
+        MOOF_API_KEY: config.moofApiKey,
+        MCP_API_KEY: config.mcpApiKey
       }
     })
