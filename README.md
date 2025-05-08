@@ -22,29 +22,13 @@ This MCP server connects to [MOOF](https://app.moof.fun), a platform for buildin
 
 ## ⚙️ Setup Options
 
-### Option 1: Run via `npx` (no install)
-
 ```bash
-MOOF_API_KEY=your-key MCP_API_KEY=your-key npx -y moof-mcp --stdio
+MOOF_API_KEY=your-moof-key MCP_API_KEY=your-mcp-key npx -y moof-mcp --stdio
 ```
 
 ---
 
-### Option 2: Install globally
-
-```bash
-npm install -g moof-mcp
-```
-
-Then run:
-
-```bash
-MOOF_API_KEY=your-key MCP_API_KEY=your-key moof-mcp --stdio
-```
-
----
-
-### Option 3: Run locally (recommended for development)
+### Option 2: Run locally (recommended for development)
 
 ```bash
 git clone https://github.com/your-org/moof-mcp
