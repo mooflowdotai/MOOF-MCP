@@ -1,0 +1,20 @@
+startCommand:
+  port: 3000
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - apiKey
+    properties:
+      apiKey:
+        type: string
+        description: Your MOOF API key (required).
+        minLength: 1
+  commandFunction: |
+    config => ({
+      command: 'node',
+      args: ['build/index.js'],
+      env: {
+        API_KEY: config.apiKey
+      }
+    })
