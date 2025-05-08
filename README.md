@@ -41,8 +41,8 @@ npm install
 Create a `.env` file:
 
 ```env
-MOOF_API_KEY=your-key
-MCP_API_KEY=your-key
+MOOF_API_KEY=your-moof-key
+MCP_API_KEY=your-mcp-key
 BASE_URL=https://app.moof.fun
 MCP_BASE_URL=https://dev-mcp-api.mooflow.ai
 ```
@@ -67,8 +67,8 @@ Register this server as a **Stdio Tool**:
   "command": "npx",
   "args": ["-y", "moof-mcp", "--stdio"],
   "env": {
-    "MOOF_API_KEY": "your-key",
-    "MCP_API_KEY": "your-key"
+    "MOOF_API_KEY": "your-moof-key",
+    "MCP_API_KEY": "your-mcp-key"
   },
   "type": "stdio",
   "port": 3000
