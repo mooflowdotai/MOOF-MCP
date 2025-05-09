@@ -1,11 +1,4 @@
-# Moof MCP Server 🧐🚀
-[![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates/moof-mcp)
-> 🔌 **Compatible with [Claude Desktop](https://claude.ai/desktop), [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [Cline](https://github.com/cline/cline), and other MCP clients.**
->
-> This MCP server enables AI assistants to interact with the [MOOF](https://app.moof.fun) platform—creating, publishing, and querying AI flows.
-
----
-
+# MOOF MCP Server 🚀
 ## ✨ Overview
 
 This MCP server connects to [MOOF](https://app.moof.fun), a platform for building and sharing powerful AI flows and agents.
@@ -44,7 +37,7 @@ Create a `.env` file:
 MOOF_API_KEY=your-moof-key
 MCP_API_KEY=your-mcp-key
 BASE_URL=https://app.moof.fun
-MCP_BASE_URL=https://dev-mcp-api.mooflow.ai
+MCP_BASE_URL=https://dev-mcp-api.moof.fun
 ```
 
 Then build and run:
@@ -127,11 +120,11 @@ Or:
 
 ```bash
 npm run build
-MOOF_API_KEY=your-key MCP_API_KEY=your-key node build/index.js --stdio
+MOOF_API_KEY=your-moof-key MCP_API_KEY=your-mcp-key node build/index.js --stdio
 ```
 
 ---
 
 ## 📝 License
 
-MIT © Moof MCP Team
+MIT
